@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/pview"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="LANDSCAPE MODE"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:gravity="center"
+        android:layout_alignParentTop="true"/>
+    <LinearLayout
+        android:layout_below="@id/pview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange"
+        android:orientation="horizontal"
+        android:id="@+id/navbar">
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:text="@string/app_logo_name1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_marginLeft="100dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="30dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:text="@string/app_logo_name2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:paddingTop="8dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="HOME"
+            android:textSize="15dp"
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="CARS"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="ABOUT"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="PARTS"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/searchbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/navbar">
+
+        <EditText
+            android:layout_width="550dp"
+            android:layout_height="match_parent"
+            android:hint="Search Here!"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_radius"
+            android:text="LogIn/SignUp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchbar"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/stmt1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/stmt2"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/stmt3"
+            android:textStyle="bold"
+            android:textColor="@color/dark_gray"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:text="Discover Now"
+            android:textColor="@color/white"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

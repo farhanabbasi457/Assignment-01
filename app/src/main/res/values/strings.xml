@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment-01</string>
+    <string name="app_logo_name1">Car</string>
+    <string name="app_logo_name2">Point</string>
+    <string name="stmt1">We Have Every Thing </string>
+    <string name="stmt2">Your Car Need</string>
+    <string name="stmt3">Rev up your automotive experience with Carpoint premier destination for cutting-edge car sales and top-notch auto parts</string>
+</resources>
